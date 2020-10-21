@@ -15,7 +15,7 @@
         <h1>DETAILS OF THE CUSTOMER</h1>
         <nav class="nav-bar">
             <ul>
-                <p><a href="index.php">Home </a>
+                <p><a href="index.html">Home </a>
                 &gt;<a href="customer.php"> Customers </a>
                 &gt; Details</p>
             </ul>

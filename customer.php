@@ -17,7 +17,7 @@
             
         <nav class="nav-bar">
             <p>
-                <a href="index.php"> Home</a>
+                <a href="index.html"> Home</a>
                 &gt; Customers
 </p>
         </nav>
