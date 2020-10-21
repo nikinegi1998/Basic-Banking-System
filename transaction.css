@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(rgba(255, 255, 255, 0.02),rgba(255, 255, 255, 0.02)), url("bg.jpg") ;    
+    background-size: cover;
+    
+    color: rgb(209, 198, 198);
+}
+
+h1{
+    margin: 4rem auto 0 auto;
+    text-align: center;
+    color: rgb(209, 198, 198);
+    font-size: 30px;
+    
+    /* font-family:  'Arial Narrow', Arial, sans-serif; */
+}
+
+button{
+    outline: none;
+    background-color: #08eb5f;
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    padding: 10px;
+    width: 8rem;
+    /* margin: 20px; */
+    margin-top: 2rem;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;    
+}
+
+form{
+    margin-top: 50px;
+    text-align: center;
+    /* width: 80px; */
+    height: 20rem;
+}
+form input{
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    text-align: center;
+    width: 25rem;
+    padding: 10px;
+    margin: 20px;
+    /* margin-top: 0px; */
+}
+form input:focus{
+    background-color: gray;
+}
+
+p{
+    font-size: 22px;
+    text-align: center;
+}
+.container{    
+    padding: 5px;
+    margin: 40px auto;
+    
+    /* justify-items: center; */
+    text-align: center;
+}
+
+table,td,th{
+    font-family: 'Arial Narrow Bold', sans-serif;
+    /* background-color: rgb(3, 88, 36); */
+    padding: 12px;
+    width: 35rem;
+    border-collapse: collapse;
+    border: 2px solid #fff;
+}
+table{
+    margin-left: 30rem;
+}
+th{
+    background-color: rgb(59, 59, 59);
+    /* opacity: 0.1; */
+    color: #08eb5f;
+    
+}
+td a{
+    padding: '5px';
+    text-decoration: none;
+    color: #08eb5f;
+    cursor: pointer;
+}
+table tr{
+    border: 5px;
+    width: 100%;
+}
